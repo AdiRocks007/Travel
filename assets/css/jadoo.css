@@ -1,0 +1,166 @@
+.drop {
+    border-radius: 0.3rem;
+  }
+  
+  .blur-nav {
+    backdrop-filter: blur(10px);
+  }
+  
+  .bg-sec {
+    padding-top: 7rem;
+  }
+  
+  .bg-x {
+    background-image: url(assets/img/hero/hero-bg.svg);
+  }
+  
+  .service-x {
+    max-width: 200px;
+  }
+  
+  .mr14 {
+    margin-right: 14px;
+  }
+  
+  .card2 {
+    max-width: 370px;
+  }
+  
+  .steps-x {
+    right: -160px;
+    top: -210px;
+    background-image: url(../GDSC_Website/assets/img/steps/bg.png);
+  }
+  
+  
+  .pholder {
+    width: 260px;
+    border-radius: 18px;
+  }
+  
+  .progress2 {
+    height: 6px;
+  }
+  
+  .pbar {
+    width: 40%;
+  }
+  
+  .card-x {
+    transform: translate(25px, 25px);
+  }
+  
+  .car {
+    height: 60px;
+    width: 20px;
+  }
+  
+  .sub {
+    background-color: rgba(223, 215, 249, 0.199);
+    border-radius: 129px 20px 20px 20px;
+  }
+  
+  .btn-primary {
+    background-color: goldenrod !important;
+  }
+  
+  .btn-danger {
+    background-color: orangered !important;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-in, transform 0.7s ease-in;
+  }
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(40);
+    transform: translateY(30);
+    transform: translateY(20);
+    transform: translateY(10);
+    transform: translateY(0);
+  }
+  
+  @media (min-width: 1024px) {
+    .sliding-door {
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .left-panel,
+    .right-panel {
+      opacity: 1;
+      transition: transform 0.5s ease-in;
+    }
+  
+    .left-panel {
+      opacity: 1;
+      transform: translateX(120%);
+    }
+  
+    .right-panel {
+      opacity: 1;
+      transform: translateX(-120%);
+    }
+  
+    .show-left {
+      transform: translateX(0);
+    }
+  
+    .show-right {
+      transform: translateX(0);
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: opacity 0.8s ease-in, transform 0.7s ease-in;
+    }
+    .fade-in .show {
+      opacity: 1;
+      transform: translateY(40);
+      transform: translateY(30);
+      transform: translateY(20);
+      transform: translateY(10);
+      transform: translateY(0);
+    }
+    
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .sliding-door {
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .left-panel,
+    .right-panel {
+      opacity: 1;
+      transition: transform 0.5s ease-in;
+    }
+  
+    .left-panel {
+      opacity: 1;
+      transform: translateX(120%);
+    }
+  
+    .right-panel {
+      opacity: 1;
+      transform: translateX(-120%);
+    }
+  
+    .show-left {
+      transform: translateX(0);
+    }
+  
+    .show-right {
+      transform: translateX(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .fade-in {
+      opacity: 1;
+    }
+  }
+  
